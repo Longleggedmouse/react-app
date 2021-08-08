@@ -1,0 +1,18 @@
+/**!该项目需要自定义的基础css */
+/*** 基础css */
+/* ... */
+
+/*** 抽离css */
+/* flex居中 */
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 单行溢出... */
+.text-nowrap{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

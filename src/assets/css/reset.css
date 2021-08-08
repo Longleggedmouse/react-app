@@ -1,0 +1,6 @@
+/* 重置css样式 */
+
+/* 注意：如果是想要引入模块里的css可以使用~进行引入 */
+@import "~normalize.css";
+@import url(./theme.css);
+@import url(./base.css);
