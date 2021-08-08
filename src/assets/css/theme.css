@@ -1,15 +1,17 @@
 /* 默认主题 */
-:root.normalTheme{
+:root .normalTheme{
   --header-bg-color:#242424;
   --nav-bg-color:#A92F11;
+  --nav-hover:#000000;
   --content-bg-color:#FFFFFF;
   --side-bg-color:#F5F5F5;
 }
 
 /* 白色主题 */
-:root.whiteTheme{
+:root .whiteTheme{
   --header-bg-color:#FFFFFF;
+  --nav-hover:#6D6F70;
   --nav-bg-color:#FFFFFF;
   --content-bg-color:#FAFAFA;
-  --side-bg-color:##F4F4F4;
+  --side-bg-color:#F4F4F4;
 }

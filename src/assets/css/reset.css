@@ -4,3 +4,4 @@
 @import "~normalize.css";
 @import url(./theme.css);
 @import url(./base.css);
+@import "~antd/dist/antd.css"

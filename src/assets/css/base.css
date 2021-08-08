@@ -1,8 +1,24 @@
 /**!该项目需要自定义的基础css */
 /*** 基础css */
 /* ... */
+a{
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul li{
+  list-style-type: none;
+}
 
 /*** 抽离css */
+
+.wrap-center{
+  width: 980px;
+  margin: 0 auto;
+  height: 100%;
+}
+
 /* flex居中 */
 .flex-center{
   display: flex;
